@@ -8,6 +8,7 @@
 body{
     margin: 0 auto;
     padding: 2% 10%;
+    background-color: #838282;
     
 }
 
@@ -38,6 +39,7 @@ h2, h3 {
     color: rgb(6, 173, 56);
     line-height: 1;
     font-family: cursive;
+    text-align: center;
     
 }
 
@@ -49,6 +51,7 @@ main{
     /* box-shadow: 10px 10px 8px 10px #707070;
     border-radius: 15px; */
     height: 100%;
+    overflow: auto;
 }
 
 
@@ -64,8 +67,8 @@ main{
 }
 .float-img{
     width: 50%;
-    float:left;
     height: 100%;
+    clear: both;
     
 }
 
@@ -90,4 +93,9 @@ ul {
     box-shadow: 10px 5px  10px #707070;
   }
   
+  .ingredients li{
+    display:inline;
+    margin-left: 2em;
+    padding-left: 3em;
+  }
  
